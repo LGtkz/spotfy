@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body{
-    width: 1920px;
-    height: 1080px;
+    width: 120rem;
+    height: 67.5rem;
     background-color: #0F0F0F;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
+    max-width: 500rem;
 }
 .corpo{
     display: flex;
@@ -15,15 +16,15 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: left;
-    margin: -10px;
-    width: 270px;
-    height: 580px;
+    margin: -0.625rem;
+    width: 16.875rem;
+    height: 36.25rem;
     background-color: #171717;
 }
 
 #pontos{
-    height: 24px;
-    width: 24px;
+    height: 1.5rem;
+    width: 1.5rem;
     padding-top: 10px;
     padding-left: 20px;
 }
